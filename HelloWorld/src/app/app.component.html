@@ -1,7 +1,7 @@
 <div>
   <h1>
     {{this.title}}
-    <img [src]="imgUrl" alt="#Briglabz logo">
+    <img [src]="imgUrl" (click)="onClick($event)" alt="#Briglabz logo">
 
   </h1>
 </div>
